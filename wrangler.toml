@@ -1,0 +1,16 @@
+name = "globe"
+type = "javascript"
+zone_id = "97836032ba6aea7b7dde9d22aee525e5"
+account_id = "97836032ba6aea7b7dde9d22aee525e5"
+route = ""
+workers_dev = true
+compatibility_date = "2022-06-07"
+
+kv_namespaces = [
+    { binding = "LOCATIONS", id = "2772d921a0b94580ba882e3b413cd380", preview_id = "2772d921a0b94580ba882e3b413cd380" },
+]
+
+[build]
+command = "yarn && yarn build"
+[build.upload]
+format = "service-worker"
